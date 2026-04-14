@@ -1,58 +1,48 @@
-# 📉 Buffett-Inspired Investing Research
+# 📉 Buffett-Inspired AI Investing Framework
 
 [🇬🇧 English](README.md) | [🇨🇳 简体中文](README_zh.md)
 
-> *"Price is what you pay. Value is what you get."* — Warren Buffett
+> Transform your LLM from a noisy stock-price predictor into a highly disciplined, Tier-1 investment associate.
 
-A Buffett-inspired investing research skill for Codex, Claude-style skill systems, and general long-form company analysis. **This repository is designed for one thing: producing disciplined, plain-language investment research memos instead of fast, noisy opinions.**
+Most "AI investing tools" hallucinate target prices, analyze meaningless candlestick charts, or summarize secondary news. **This repository explicitly blocks that noise.** Instead, it provides a rigorous workflow (Python data grabbers + tailored mental models) that forces your LLM to behave like a true business owner evaluating a decade-long partnership.
 
 ---
 
-## 💎 What You Get (Example Output)
+## 🌟 Core Value: What does this give you?
 
-Stop settling for technical-analysis theater or false AI certainty. This framework forces the model to evaluate businesses like an owner.
+1. **🔒 Zero Hallucination via "Primary-Source" Enforcement**:
+   Built-in Python scripts instantly point the AI directly to official SEC, HKEX, and Mainland Exchange portals. Your AI reads 10-Ks, Proxy statements, and earnings transcripts first—not Reddit noise.
+2. **🧠 Piercing the Financial Matrix**:
+   Strips the AI of its obsession with P/E ratios and stock prices. Forces it to qualitatively evaluate **Moat Durability**, **Management Candor**, and **Capital Allocation** before anything else.
+3. **⚔️ Industry-Specific Playbooks**:
+   No generic checklist is used here. When analyzing SaaS, it scrutinizes switching costs; when looking at Insurance, it zeroes in on the cost of float. Real, targeted mental models.
+4. **🛡️ The Power of the "Pass" Culture**:
+   Empowers the AI to swiftly reject mediocre businesses or admit a company is *Outside its Competence*. Drastically increases your signal-to-noise ratio by only producing full memos for fat pitches.
 
-> **🎯 Conclusion: WATCHLIST**
+---
+
+## 💎 The "Aha!" Moment (Before & After)
+
+**❌ Using a generic AI prompt:**
+> *"Should I buy Apple stock?"*
+> **AI Reply:** "Apple (AAPL) is currently trading around $180. The MACD looks bullish and recent iPhone sales are up. Wall Street analysts maintain a strong buy..." (Useless, secondary casino-thinking).
+
+**✅ Using This Repository's Workflow:**
+> *(The AI reads the latest 10-K, proxy filings, and share repurchase history to produce a disciplined memo)*
 > 
-> **Company:** Apple Inc. (AAPL)  
-> **Moat:** 🟢 **Strong**. Exceptional pricing power and switching costs driven by the iOS ecosystem and services lock-in.  
-> **Management:** 🟢 **Excellent Capital Allocators**. Consistent share repurchases below intrinsic value.  
-> **Valuation:** 🔴 **No Margin of Safety**. Currently priced at ~30x owner earnings, pricing in aggressive terminal growth.  
-> **Action:** Pass at current prices. Await a fat pitch or macro dislocation.
+> **🎯 Final Decision: WATCHLIST (Do Not Buy at Current Prices)**
+> 
+> - 🟢 **Business Moat (Exceptional)**: The iOS ecosystem and service lock-in have created nearly insurmountable switching costs and profound pricing power that outpaces inflation.
+> - 🟢 **Capital Allocation (Outstanding)**: Tim Cook's team acts as masterful owner-operators, consistently aggressively retiring outstanding shares whenever traded below intrinsic value.
+> - 🔴 **Margin of Safety (None)**: The market is currently demanding a massive premium (~30x owner earnings), pricing in aggressive, flawless perpetual growth. There is **zero room for error**.
+> - 💡 **Action**: Do not swing. A wonderful business at a dreadful price. Await a macro dislocation or irrational sell-off for a fat pitch.
 
 ---
-
-## 🌟 Core Value & Best Outcomes
-
-This repository transforms your AI agent from a generic chatbot into a disciplined investment research associate. By embedding this framework, you gain:
-
-- **Focus on Business Ownership, Not Stock Tickers:** The AI evaluates the durability of the moat, the candor of management, and the quality of capital allocation before ever discussing price.
-- **Primary-Source First Methodology:** Bypasses noisy secondary opinions. Prompts explicitly route the AI to read 10-K/20-F filings, proxy statements, and earnings transcripts first.
-- **High-Signal "Pass" Culture:** Saves you time and money by explicitly empowering the AI to say *`Pass`* or *`Outside Competence`* immediately, rapidly filtering out mediocre businesses.
-- **Ready-to-use Industry Playbooks:** Loads specific mental models depending on the sector (e.g., assessing "float" for insurance, or "switching costs" for SaaS) instead of generic checklists.
-- **Fast Multi-Market Bootstrapping:** Included Python scripts instantly generate the correct official exchange entry points (SEC, HKEX, SSE, SZSE) so you never pull the wrong materials.
-
-<details>
-<summary>📂 View Repository Structure</summary>
-
-```text
-.
-├── SKILL.md
-├── README.md
-├── README_zh.md
-├── agents/             # Pre-configured LLM execution profiles
-├── references/         # Core framework, templates, and playbooks 
-│   └── zh-CN/          # Chinese reference mirrors
-├── scripts/            # Deterministic source-fetching tools
-├── examples/           # Prompting examples
-└── evals/              # CI/CD evaluation cases
-```
-</details>
 
 ## 🚀 Quick Start
 
 ### 1. Install as a Skill Repo
-Place this repository in your skill directory:
+Place this repository in your workflow or skill directory:
 ```bash
 # Typical local path
 $CODEX_HOME/skills/buffett-inspired-investing
