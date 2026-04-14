@@ -28,14 +28,21 @@ Most "AI investing tools" hallucinate target prices, analyze meaningless candles
 > **AI Reply:** "Apple (AAPL) is currently trading around $180. The MACD looks bullish and recent iPhone sales are up. Wall Street analysts maintain a strong buy..." (Useless, secondary casino-thinking).
 
 **✅ Using This Repository's Workflow:**
-> *(The AI reads the latest 10-K, proxy filings, and share repurchase history to produce a disciplined memo)*
+> *(The AI reads the latest 10-K, proxy filings, and applies rigorous mental models to produce a disciplined memo)*
 > 
+> **🍎 Case 1: Apple Inc. (AAPL)**
 > **🎯 Final Decision: WATCHLIST (Do Not Buy at Current Prices)**
 > 
-> - 🟢 **Business Moat (Exceptional)**: The iOS ecosystem and service lock-in have created nearly insurmountable switching costs and profound pricing power that outpaces inflation.
-> - 🟢 **Capital Allocation (Outstanding)**: Tim Cook's team acts as masterful owner-operators, consistently aggressively retiring outstanding shares whenever traded below intrinsic value.
-> - 🔴 **Margin of Safety (None)**: The market is currently demanding a massive premium (~30x owner earnings), pricing in aggressive, flawless perpetual growth. There is **zero room for error**.
-> - 💡 **Action**: Do not swing. A wonderful business at a dreadful price. Await a macro dislocation or irrational sell-off for a fat pitch.
+> - 🟢 **Business Moat (Very Strong, but facing a paradigm shift)**: Apple possesses structural advantages others dream of—2B active devices, custom silicon, and "The Whole Widget" integration. However, as we enter the AI hardware era (akin to the PC industry in 1977), where categories like AirPods are redefined into "always-on personal AI interfaces," Apple's decade-long software stagnation ("Siri is shit") threatens their moat.
+> - 🟡 **Management (Incredible Operators, Weak Product Vision)**: Tim Cook's team acts as masterful capital allocators, aggressively retiring shares below intrinsic value. But "Nice doesn't ship revolutionary products, and you can't hire taste." The organization excels at execution but fundamentally lacks the visionary product DNA necessary to lead the AI hardware revolution instead of following it.
+> - 🔴 **Margin of Safety (None)**: The market is currently demanding a massive premium (~30x owner earnings), pricing in flawless perpetual growth. There is **zero room for error**. A wonderful business facing monumental shifts at a dreadful price.
+>
+> **📦 Case 2: Amazon.com (AMZN)**
+> **🎯 Final Decision: BUY & HOLD**
+> 
+> - 🟢 **Business Moat (Unassailable Scale Economies)**: Bezos' ethos ("Your margin is my opportunity") is fully institutionalized. Between AWS's massive ecosystem lock-in and the retail network's insurmountable CapEx moat, new entrants face a multi-decade, hundred-billion-dollar barrier to entry.
+> - 🟢 **Management (Absolute Long-term Focus)**: From Bezos to Jassy, management displays a rare willingness to suppress short-term accounting profits (Net Income) in favor of relentlessly reinvesting owner earnings into infrastructure and AWS capacity, trading short-term Wall Street optics for absolute long-term market dominance.
+> - 🟡 **Margin of Safety (Fair to Attractive)**: Generic AI will scream about Amazon's "high P/E ratio." Our framework recognizes that by separating growth CapEx from maintenance CapEx, and isolating AWS's extreme return on capital, the massive underlying free cash flow generation is ultimately available at a highly attractive price.
 
 ---
 
