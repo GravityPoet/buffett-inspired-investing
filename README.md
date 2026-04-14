@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) | [🇨🇳 简体中文](README_zh.md)
 
-> A Buffett-inspired AI workflow. Forces LLMs to read 10-Ks, ignore stock price noise, and find "wonderful businesses at fair prices."
+> A Buffett-inspired AI workflow to find "wonderful businesses at fair prices". The cognitive framework of the World's Top 1 player powers your strongest analysis!
 
 ---
 
