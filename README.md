@@ -41,6 +41,13 @@
 > - 🟢 **Business Moat (Unassailable Scale Economies)**: Bezos' ethos ("Your margin is my opportunity") is fully institutionalized. Between AWS's massive ecosystem lock-in and the retail network's insurmountable CapEx moat, new entrants face a multi-decade, hundred-billion-dollar barrier to entry.
 > - 🟢 **Management (Absolute Long-term Focus)**: From Bezos to Jassy, management displays a rare willingness to suppress short-term accounting profits (Net Income) in favor of relentlessly reinvesting owner earnings into infrastructure and AWS capacity, trading short-term Wall Street optics for absolute long-term market dominance.
 > - 🟡 **Margin of Safety (Fair to Attractive)**: Generic AI will scream about Amazon's "high P/E ratio." Our framework recognizes that by separating growth CapEx from maintenance CapEx, and isolating AWS's extreme return on capital, the massive underlying free cash flow generation is ultimately available at a highly attractive price.
+>
+> **🎮 Case 3: NVIDIA Corp (NVDA)**
+> **🎯 Final Decision: WATCHLIST (Awaiting Cycle Dislocation)**
+> 
+> - 🟢 **Business Moat (Impregnable Hardware-Software Ecosystem)**: Conventional wisdom sees a chip designer. Our framework reveals an 18-year software monopoly—CUDA. This highly sticky developer ecosystem mirrors Windows' dominance in the PC era. Competitors trying to build a faster chip are fundamentally missing the point; Nvidia sells a full-stack data center platform with zero viable alternatives.
+> - 🟢 **Management (Generational Vision & Execution)**: Jensen Huang is the rare founder-operator who combines decade-ahead architectural vision (betting the farm on deep learning long before ChatGPT) with ruthless execution. His taste and conviction established today's AI infrastructure throne.
+> - 🔴 **Margin of Safety (Highly Fragile to Peak-Cycle CapEx)**: While forward P/E might seem "justifiable" to generic AI analysts, an owner's perspective warns that current hyper-earnings rely exclusively on the unrelenting, price-insensitive CapEx arms race among Hyperscalers (Meta, MSFT, Google). If downstream AI monetization falters and infrastructure spend decelerates, NVDA faces violent cyclical contraction. An era-defining business with completely non-existent margin of safety at peak-cycle pricing.
 
 ---
 
