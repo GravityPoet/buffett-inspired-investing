@@ -22,16 +22,15 @@ Stop settling for technical-analysis theater or false AI certainty. This framewo
 
 ---
 
-## 🆚 Why This Repo?
+## 🌟 Core Value & Best Outcomes
 
-Most AI investing prompt-packs force the model to hallucinate price targets or cosplay as Warren Buffett. This repo keeps the **discipline** while removing the **theater**.
+This repository transforms your AI agent from a generic chatbot into a disciplined investment research associate. By embedding this framework, you gain:
 
-| ❌ Generic AI Research | ✅ Buffett-Inspired Framework (This Repo) |
-| :--- | :--- |
-| Focuses on headline P/E and price charts | Emphasizes **Owner Earnings** & **Capital Allocation** |
-| Starts with secondary news and opinions | **Primary-source first** (10-K, proxy, transcripts) |
-| Forces a "Bull" or "Bear" conclusion | Allows **`Pass`**, **`Watchlist`**, and **`Outside Competence`** |
-| General "finance" prompting | Topic & Industry-specific playbooks |
+- **Focus on Business Ownership, Not Stock Tickers:** The AI evaluates the durability of the moat, the candor of management, and the quality of capital allocation before ever discussing price.
+- **Primary-Source First Methodology:** Bypasses noisy secondary opinions. Prompts explicitly route the AI to read 10-K/20-F filings, proxy statements, and earnings transcripts first.
+- **High-Signal "Pass" Culture:** Saves you time and money by explicitly empowering the AI to say *`Pass`* or *`Outside Competence`* immediately, rapidly filtering out mediocre businesses.
+- **Ready-to-use Industry Playbooks:** Loads specific mental models depending on the sector (e.g., assessing "float" for insurance, or "switching costs" for SaaS) instead of generic checklists.
+- **Fast Multi-Market Bootstrapping:** Included Python scripts instantly generate the correct official exchange entry points (SEC, HKEX, SSE, SZSE) so you never pull the wrong materials.
 
 <details>
 <summary>📂 View Repository Structure</summary>
