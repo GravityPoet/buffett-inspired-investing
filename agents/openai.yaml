@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buffett-Inspired Investing"
+  short_description: "Analyze companies with a Buffett-inspired research framework."
+  default_prompt: "Analyze this company with a Buffett-inspired investing framework and produce a structured research memo grounded in primary sources."

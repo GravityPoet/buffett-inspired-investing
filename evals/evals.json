@@ -1,0 +1,35 @@
+{
+  "skill_name": "buffett-inspired-investing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用 Buffett-inspired 框架分析 Apple，并输出完整研究备忘录。",
+      "assertions": [
+        { "type": "contains", "value": "Circle of Competence" },
+        { "type": "contains", "value": "Moat" },
+        { "type": "contains", "value": "Capital Allocation" },
+        { "type": "contains", "value": "Valuation" },
+        { "type": "contains", "value": "Verdict" },
+        { "type": "contains", "value": "Sources" }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "判断一家银行是否属于 Outside competence，并说明原因。",
+      "assertions": [
+        { "type": "contains", "value": "Circle of Competence" },
+        { "type": "contains", "value": "Financial Strength" },
+        { "type": "contains", "value": "Verdict" }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "分析腾讯是否是好公司但价格太贵。",
+      "assertions": [
+        { "type": "contains", "value": "Moat" },
+        { "type": "contains", "value": "Valuation" },
+        { "type": "contains", "value": "margin of safety" }
+      ]
+    }
+  ]
+}
