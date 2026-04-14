@@ -4,8 +4,6 @@
 
 > Transform your LLM from a noisy stock-price predictor into a highly disciplined, Tier-1 investment associate.
 
-Most "AI investing tools" hallucinate target prices, analyze meaningless candlestick charts, or summarize secondary news. **This repository explicitly blocks that noise.** Instead, it provides a rigorous workflow (Python data grabbers + tailored mental models) that forces your LLM to behave like a true business owner evaluating a decade-long partnership.
-
 ---
 
 ## 🌟 Core Value: What does this give you?
