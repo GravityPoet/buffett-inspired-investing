@@ -74,16 +74,27 @@ For a full memo, read in this order:
 5. `references/industry-playbooks.md` when the industry matters
 6. `references/mental-models.md` when the user asks for deeper Buffett philosophy or decision framing
 
-## U.S. issuer helper
+If the user wants the analysis in Chinese, prefer the matching files under `references/zh-CN/`.
 
-For U.S. issuers, you may start with:
+## Market bootstrap helpers
+
+Use the deterministic official-source helper whenever you need to orient a company quickly by market:
+
+```bash
+python3 scripts/official_market_bootstrap.py "AAPL"
+python3 scripts/official_market_bootstrap.py "0700.HK"
+python3 scripts/official_market_bootstrap.py "600519.SH"
+python3 scripts/official_market_bootstrap.py "300750.SZ" --json
+```
+
+For U.S. issuers, you may optionally add the SEC bootstrap tool:
 
 ```bash
 python3 scripts/sec_company_snapshot.py "AAPL"
 python3 scripts/sec_company_snapshot.py "American Express"
 ```
 
-Use it as a bootstrap tool, not as a substitute for reading the actual filing.
+Use these as bootstrap tools, not as substitutes for reading the actual filing.
 
 ## Hard filters
 
@@ -99,7 +110,7 @@ Reject or sharply downgrade when one of these is true:
 
 ## Output requirements
 
-Use the structure in `references/memo-template.md`.
+Use the structure in `references/memo-template.md` or `references/zh-CN/memo-template.md`.
 
 Always include:
 

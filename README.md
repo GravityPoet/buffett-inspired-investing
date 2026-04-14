@@ -42,8 +42,17 @@ It also deliberately removes the parts that drift too far from Buffett:
 │   ├── memo-template.md
 │   ├── mental-models.md
 │   ├── official-principles.md
-│   └── source-map.md
+│   ├── source-map.md
+│   └── zh-CN/
+│       ├── README.md
+│       ├── framework.md
+│       ├── industry-playbooks.md
+│       ├── memo-template.md
+│       ├── mental-models.md
+│       ├── official-principles.md
+│       └── source-map.md
 ├── scripts/
+│   ├── official_market_bootstrap.py
 │   └── sec_company_snapshot.py
 ├── examples/
 │   └── example-prompts.md
@@ -72,6 +81,7 @@ It also deliberately removes the parts that drift too far from Buffett:
 - U.S. / Hong Kong / Mainland China source map
 - official-source routing for each market
 - example prompts and evaluation cases
+- bootstrap helper commands that do not depend on brittle scraping
 
 ### From Buffett-perspective-style repos
 
@@ -144,6 +154,19 @@ In many local setups that means:
 
 See [examples/example-prompts.md](examples/example-prompts.md).
 
+### Multi-market bootstrap helper
+
+Use the deterministic market helper when you want the fastest official-source starting points without writing brittle scraping logic:
+
+```bash
+python3 scripts/official_market_bootstrap.py AAPL
+python3 scripts/official_market_bootstrap.py 0700.HK
+python3 scripts/official_market_bootstrap.py 600519.SH
+python3 scripts/official_market_bootstrap.py 300750.SZ --json
+```
+
+The helper does not fetch filings. It standardizes where to start and which official search terms to use.
+
 ### SEC helper note
 
 If you use the SEC helper script, set a meaningful `SEC_USER_AGENT` first:
@@ -154,6 +177,18 @@ python3 scripts/sec_company_snapshot.py AAPL
 ```
 
 The script is a bootstrap helper, not a substitute for reading the filing itself.
+
+## Chinese Reference Layer
+
+The main reference files are written in English first.
+
+For direct Chinese use, mirrored core references live under:
+
+```text
+references/zh-CN/
+```
+
+Start with [references/zh-CN/README.md](references/zh-CN/README.md) if the memo or discussion should stay in Chinese end to end.
 
 ## Research Flow
 
@@ -178,6 +213,8 @@ Read in this order:
 5. [references/industry-playbooks.md](references/industry-playbooks.md) as needed
 6. [references/mental-models.md](references/mental-models.md) when the user wants deeper philosophical context
 
+If the user wants the analysis in Chinese, switch to the matching files in `references/zh-CN/` after step 1 or from the start.
+
 ### C. Topic question
 
 Jump directly to the relevant reference file for:
@@ -195,6 +232,7 @@ Jump directly to the relevant reference file for:
 - Berkshire Hathaway annual letters and annual reports
 - Berkshire acquisition criteria
 - Buffett's published comments on intrinsic value, owner earnings, management candor, and capital allocation
+- official exchange and regulator portals for U.S., Hong Kong, and Mainland China issuers
 
 See [references/source-map.md](references/source-map.md) for links.
 
